@@ -115,6 +115,7 @@ clear_btn.grid(row=2, column=3)
 
 app.title('Account Manager')
 app.geometry('700x350')
+app.configure(background= 'grey')
 
 # Populate data
 populate_list()
